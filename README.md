@@ -1,2 +1,1 @@
-# AngelsAndDemons
-The Game Base
+# ZuryPy
