@@ -13,8 +13,8 @@ else:
 		def __init__(self):
 			self.title = "Zury"
 			self.defaulturl = "https://google.com"
-		def show(self):
-			main.create_window(self.title, self.defaulturl, 800, 600, True, False)
+		def show(self, width, height, r, f):
+			main.create_window(self.title, self.defaulturl, width, height, r, f)
 		def change_url(self,url_token):
 			main.load_url(url_token)
 		def setDefaultURL(self,url_token):
